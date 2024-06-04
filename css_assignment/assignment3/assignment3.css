@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/* part1 */
+.part1 {
+    width: 60%;
+    height: 730px;
+    background-color: #202020;
+    position: relative;
+
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 230px;
+    margin: 0px auto;
+    left: 97%;
+
+}
+#icon2{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 380px;
+    margin: 0px auto;
+    left: 97%;
+    
+}
+#icon3{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 520px;
+    margin: 0px auto;
+    left: 97%;
+    
+}
+
+
+.text {
+    height: 100%;
+    width: 80%;
+    /* border: 5px solid wheat; */
+    text-align: end;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.heading {
+    width: 587px;
+    height: 74px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.pera {
+    width: 587px;
+    height: 74px;
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* part2 */
+.part2 {
+    width: 40%;
+    height: 730px;
+    background-image: url(img1.png);
+
+}

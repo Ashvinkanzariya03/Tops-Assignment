@@ -1,0 +1,50 @@
+
+@media (max-width: 1200px) {
+
+
+    nav ul li  {
+        display: none;
+    }
+ 
+
+    nav label{
+        display: block;
+        position: absolute;
+        top: 30px;
+    }
+    #check:checked ~ ul li {
+        display: block;
+         height: 100px;
+        width: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        background-color: black;
+        color: white;
+        z-index: 1;
+        
+  
+        right: 0px;
+
+    }
+    #check:checked ~ ul {
+        height: 80%;
+        width: 100% ;
+        text-align: center;
+    }
+    ul{
+        position: absolute;
+        top: 20px;
+
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        /* row-gap: 5px; */
+    }
+    ul li  a{
+        /* display: block; */
+        /* padding: 10px 0px; */
+        text-align: center;
+    }
+    
+}
+
