@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery_assignment-2</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+    </head>
+    <body>
+        <p>This is a paragraph</p>
+        <button id="addClass">Add Class</button>
+        <button id="removeClass">Remove Class</button>
+        <button id="animate">Animate</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Apply CSS
+            $("p").css({
+                "color": "blue",
+                "font-size": "18px"
+            });
+
+            // Add class 
+            $("#addClass").click(function(){
+                $("p").addClass("highlight");
+            });
+
+            // Remove class 
+            $("#removeClass").click(function(){
+                $("p").removeClass("highlight");
+            });
+
+            // Animation
+            $("#animate").click(function(){
+                $("p").animate({
+                    left: '100px',
+                    opacity: '0.5',
+                    height: 'toggle'
+                }, 1000);
+            });
+        });
+    </script>
+
+</body>
+</html>
