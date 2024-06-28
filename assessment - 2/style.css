@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 76, 255);
+}
+.box{
+    border: 2px solid black;
+    background-color: black;
+}
+
+
+input{
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: black;
+}
+.part-1{
+    height: 100%;
+    width: 400px;
+}
+.part-1 div button{
+    border: none;
+    width: 130px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.btn{
+    display: flex;   
+}
+.part-2 .col button{
+    height:80px ;
+    border: none;
+    width: 110px;
+    background-color: rgb(71, 69, 69);
+    color: white;
+    font-size: 20px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
